@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css">
     <!-- displays site properly based on user's device -->
-    <!-- <link
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
-    /> -->
+    /> 
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Frontend Mentor | Blog preview card</title>
-    <style>
+    <title>Frontend Mentor | Blog preview card</title> -->
+    <!-- <style>
       @font-face {
         font-family: Figtree;
         src: url(./fonts/static/Figtree-Medium.ttf);
@@ -27,18 +27,21 @@
     </style> -->
   </head>
 
-  <body class="bg-[#F4D04E]">
-    <main class="flex items-center justify-center">
+
+      <body>
+        
+
+      <main>
       <!-- The card starts at this div below -->
-     <section class="container">
-      <div
-        class="bg-[#FFFFFF] rounded-[20px] w-[384px] h-[522px] flex flex-col justify-evenly p-[24px] gap-y-[24px] border-[1px] shadow-[8px_8px_0px_0px_rgb(60,60,60)] max-sm:w-[327px] max-sm:h-[501px]"
-      >
-       <div class="card">
+
+    <div class="card">
+
+      <div>
+       <div >
         <img
           src="./assets/images/illustration-article.svg"
-          class="rounded-[10px] w-[339px] h-[200px] max-sm:w-[279px] max-sm:h-auto"
-          alt=""
+          class="hero-pic"
+          alt="geometric imagesin black and white with gold background"
         />
      
 
@@ -48,21 +51,19 @@
         > -->
           
             <!-- class="w-[82px] h-[29px] flex justify-center rounded-[4px] py-[4px] bg-[#F4D04E] font-[Figtree] font-bold text-[14px] leading-[150%] tracking-[0px] m-[0px] max-sm:w-[73px] max-sm:h-[26px] max-sm:text-[12px]" -->
-         <div>
-            Learning
+         <div class="content">
+           <h3>Learning</h3> 
         
 
 
 
-          <p
-            class="font-[Figtree] text-[14px] leading-[150%] tracking-[0px] w-[143px] h-[31px] max-sm:w-[123px] max-sm:h-[18px] max-sm:text-[12px]"
-          >
+          <p>
             Published 21 Dec 2023
           </p>
 
 <div>
           <p
-            class="font-[Figtree] font-bold text-[24px] leading-[150%] tracking-[0px] w-[336px] h-[36px] max-sm:w-[279px] max-sm:h-[30px] max-sm:text-[20px]"
+            class="title"
           >
             HTML & CSS foundations
           </p>
@@ -71,7 +72,7 @@
           <div>
 
           <p
-            class="font-[Figtree] text-[#6B6B6B] text-[16px] leading-[150%] tracking-[0px] w-[336px] h-[72px] max-sm:w-[279px] max-sm:h-[63px] max-sm:text-[14px]"
+            class="description"
           >
             These languages are the backbone of every website, defining
             structure, content, and presentation.
@@ -79,7 +80,11 @@
         <!-- </content> -->
         </div>
 
-        <!-- This is the author section -->
+        <footer>
+
+  <!-- This is the author section -->
+                   
+      
         <div class="author-pic"">
           <img
             src="./assets/images/image-avatar.webp"
@@ -87,19 +92,19 @@
             alt="author photo"
           />
 
-          <p
-            class="font-[Figtree] font-bold text-[14px] leading-[150%] tracking-[0px] w-auto"
-          >
-            Greg Hooper
-          </p>
+           <p class="author">Greg Hooper</p>
+
+          
+         
         </div>
           </div>
+          </footer>
 
         <!-- end of author div -->
       </div>
       <!-- end of card div -->
 
-      <div class="card-footer"><di>    
+      <!-- <div class="card-footer"><di>     -->
       </div>
       </div>
     </main>
